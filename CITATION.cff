@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "cellcount: counting cells in microscopy images"
+version: 1.0.0
+date-released: 2026-11-12
+license: MIT
+repository-code: "https://github.com/thodkatz/dashverse-demo-exemplary"
+authors:
+  - family-names: Demo
+    given-names: Alice
+    affiliation: "EVERSE DashVERSE demo"
+keywords:
+  - microscopy
+  - image analysis
+  - research software

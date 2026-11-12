@@ -1,0 +1,29 @@
+{
+  "indicators": [
+    {"name": "software_has_license", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/software_has_license"},
+    {"name": "software_has_citation", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/software_has_citation"},
+    {"name": "software_has_documentation", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/software_has_documentation"},
+    {"name": "descriptive_metadata", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/descriptive_metadata"},
+    {"name": "software_has_tests", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/software_has_tests"},
+    {"name": "requirements_specified", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/requirements_specified"},
+    {"name": "versioning_standards_use", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/versioning_standards_use"},
+    {"name": "repository_workflows", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/repository_workflows"},
+    {"name": "version_control_use", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/version_control_use"},
+    {"name": "has_releases", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/has_releases"},
+    {"name": "has_contribution_guidelines", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/has_contribution_guidelines"},
+    {"name": "support_issue_tracking", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/support_issue_tracking"},
+    {"name": "software_is_containerized", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/software_is_containerized"},
+    {"name": "codemeta_completeness", "plugin": "RSFC", "@id": "https://w3id.org/everse/i/indicators/codemeta_completeness"},
+    {"name": "has_citation", "plugin": "CFFConvert", "@id": "https://w3id.org/everse/i/indicators/software_has_citation"},
+    {"name": "has_license", "plugin": "HowFairIs", "@id": "https://w3id.org/everse/i/indicators/software_has_license"},
+    {"name": "has_no_security_leak", "plugin": "Gitleaks", "@id": "https://w3id.org/everse/i/indicators/no_leaked_credentials"},
+    {"name": "dependency_management", "plugin": "OpenSSFScorecard", "@id": "https://w3id.org/everse/i/indicators/dependency_management"},
+    {"name": "no_critical_vulnerability", "plugin": "OpenSSFScorecard", "@id": "https://w3id.org/everse/i/indicators/no_critical_vulnerability"},
+    {"name": "uses_tool_for_warnings_and_mistakes", "plugin": "OpenSSFScorecard", "@id": "https://w3id.org/everse/i/indicators/uses_tool_for_warnings_and_mistakes"},
+    {"name": "static_analysis_common_vulnerabilities", "plugin": "OpenSSFScorecard", "@id": "https://w3id.org/everse/i/indicators/static_analysis_common_vulnerabilities"},
+    {"name": "cyclomatic_complexity_ok", "plugin": "PySCN", "@id": "https://w3id.org/everse/i/indicators/cyclomatic_complexity_ok"},
+    {"name": "code_duplication_ok", "plugin": "PySCN", "@id": "https://w3id.org/everse/i/indicators/code_duplication_ok"},
+    {"name": "coupling_between_objects_ok", "plugin": "PySCN", "@id": "https://w3id.org/everse/i/indicators/coupling_between_objects_ok"},
+    {"name": "internal_cohesion_ok", "plugin": "PySCN", "@id": "https://w3id.org/everse/i/indicators/internal_cohesion_ok"}
+  ]
+}

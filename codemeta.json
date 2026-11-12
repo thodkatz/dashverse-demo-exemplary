@@ -1,0 +1,34 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "cellcount",
+  "description": "Count and measure cells in 2D microscopy images with a simple threshold-and-label pipeline.",
+  "version": "1.0.0",
+  "softwareVersion": "1.0.0",
+  "license": "https://spdx.org/licenses/MIT",
+  "codeRepository": "https://github.com/thodkatz/dashverse-demo-exemplary",
+  "issueTracker": "https://github.com/thodkatz/dashverse-demo-exemplary/issues",
+  "continuousIntegration": "https://github.com/thodkatz/dashverse-demo-exemplary/actions",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.9+",
+  "operatingSystem": ["Linux", "macOS", "Windows"],
+  "softwareRequirements": ["numpy>=1.24", "scipy>=1.10"],
+  "dateCreated": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "datePublished": "2026-11-12",
+  "developmentStatus": "active",
+  "keywords": ["microscopy", "image analysis", "research software"],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Alice",
+      "familyName": "Demo",
+      "affiliation": {"@type": "Organization", "name": "EVERSE DashVERSE demo"}
+    }
+  ],
+  "maintainer": [
+    {"@type": "Person", "givenName": "Alice", "familyName": "Demo"}
+  ],
+  "readme": "https://github.com/thodkatz/dashverse-demo-exemplary/blob/main/README.md",
+  "buildInstructions": "https://github.com/thodkatz/dashverse-demo-exemplary/blob/main/README.md#installation"
+}
